@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>pidgin-otr</id>
     <title>OTR Plugin for Pidgin</title>
-    <version>4.0.1.20150816</version>
+    <version>4.0.1</version>
     <authors>OTR Development Team</authors>
     <owners>bobcanthelpyou</owners>
     <summary>This is a plugin for Pidgin 2.x which implements Off-the-Record Messaging over any IM network Pidgin supports.</summary>
