@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/choco/wiki/CreatePackages -->
     <id>pidgin-otr</id>
     <title>OTR Plugin for Pidgin</title>
     <version>4.0.2</version>
@@ -10,11 +10,16 @@
     <owners>bobcanthelpyou</owners>
     <summary>This is a plugin for Pidgin 2.x which implements Off-the-Record Messaging over any IM network Pidgin supports.</summary>
     <description>This is a plugin for Pidgin 2.x which implements Off-the-Record Messaging over any IM network Pidgin supports.</description>
-    <projectUrl>https://otr.cypherpunks.ca/</projectUrl>
-    <!--<packageSourceUrl></packageSourceUrl>-->
-    <tags>Pidgin OTR Messaging Plugin</tags>
+    <tags>Pidgin OTR Messaging Plugin admin</tags>
     <copyright></copyright>
+    <bugTrackerUrl>https://bugs.otr.im/projects/pidgin-otr/issues</bugTrackerUrl>
+    <docsUrl>https://otr.cypherpunks.ca/index.php#docs</docsUrl>
     <licenseUrl>http://www.fsf.org/licenses/gpl.txt</licenseUrl>
+    <mailingListUrl>https://otr.cypherpunks.ca/index.php#lists</mailingListUrl>
+    <packageSourceUrl>https://github.com/bobcanthelpyou/chocolatey-package-templates</packageSourceUrl>
+    <projectUrl>https://otr.cypherpunks.ca/</projectUrl>
+    <projectSourceUrl>https://bugs.otr.im/projects/pidgin-otr</projectSourceUrl>
+    <releaseNotes>https://otr.cypherpunks.ca/news.php#news</releaseNotes>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <dependencies>
       <dependency id="pidgin" version="2.10.9" />
