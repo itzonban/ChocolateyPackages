@@ -5,7 +5,7 @@ $registryUninstallerKeyName = 'pidgin-otr'
 $shouldUninstall = $true
 
 $local_key     = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName"
-$local_key6432   = "HKCU:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName" 
+$local_key6432   = "HKCU:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName"
 $machine_key   = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName"
 $machine_key6432 = "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName"
 
@@ -19,7 +19,7 @@ if ($file -eq $null -or $file -eq '') {
     $shouldUninstall = $false
 }
 
-$installerType = 'EXE' 
+$installerType = 'EXE'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 

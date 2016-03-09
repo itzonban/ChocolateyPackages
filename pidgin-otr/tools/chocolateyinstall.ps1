@@ -1,16 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'pidgin-otr'
-$url = 'https://otr.cypherpunks.ca/binaries/windows/pidgin-otr-4.0.1.exe'
-
 $packageArgs = @{
-  packageName   = $packageName
+  packageName   = 'pidgin-otr'
   fileType      = 'exe'
-  url           = 'https://otr.cypherpunks.ca/binaries/windows/pidgin-otr-4.0.1.exe'
+  url           = 'https://otr.cypherpunks.ca/binaries/windows/pidgin-otr-4.0.2.exe'
+  silentArgs    = '/S'
 
-  silentArgs = '/S'
-  
-  checksum      = '55ec19049273ea0a4ddd339aa84e10ae'
+  checksum      = '9fb76c880d668ee7155f393d769250ac'
   checksumType  = 'md5'
 }
 
