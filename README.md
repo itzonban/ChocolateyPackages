@@ -1,2 +1,1 @@
-Chocolatey package templates
-============================
+Packages for [Chocolatey](https://chocolatey.org).
