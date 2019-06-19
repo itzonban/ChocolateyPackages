@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pidginotrplugin</id>
+    <version>4.0.1.20190619</version>
+    <title>[Deprecated] OTR Plugin for Pidgin</title>
+    <authors>OTR Development Team</authors>
+    <owners>Itzonban</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://www.fsf.org/licenses/gpl.txt</licenseUrl>
+    <projectUrl>https://otr.cypherpunks.ca/</projectUrl>
+	<packageSourceUrl>https://github.com/itzonban/ChocolateyPackages</packageSourceUrl>
+	<releaseNotes>https://otr.cypherpunks.ca/news.php#news</releaseNotes>
+    <description>#### New package name: __[pidgin-otr](https://chocolatey.org/packages/pidgin-otr)__ 
+
+      `pidginotrplugin` has been deprecated because of Chocolatey [naming conventions](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package).</description>
+    <copyright></copyright>
+    <tags>Pidgin OTR Messaging Plugin</tags>
+    <dependencies>
+      <dependency id="pidgin-otr" version="4.0.2.20190617" />
+    </dependencies>
+  </metadata>
+  <files />
+</package>
