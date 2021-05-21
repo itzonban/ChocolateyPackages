@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mediamonkey</id>
+    <version>5.0.0.2338</version>
+    <title>MediaMonkey</title>
+    <authors>Ventis Media Inc.</authors>
+    <owners>Itzonban</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://www.mediamonkey.com/sw/license.txt</licenseUrl>
+    <projectUrl>https://www.mediamonkey.com/</projectUrl>
+    <packageSourceUrl>https://github.com/itzonban/ChocolateyPackages</packageSourceUrl>
+    <releaseNotes>https://www.ventismedia.com/mantis/changelog_page.php</releaseNotes>
+    <description>The media manager for serious collectors</description>
+    <summary>Let MediaMonkey organize your music/video collection and get it under control. On your PC and on your phone. So that you can focus on enjoying it.</summary>
+    <copyright>2003-2021</copyright>
+    <tags>MediaMonkey</tags>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+  </files>
+</package>
